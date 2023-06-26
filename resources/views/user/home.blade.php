@@ -102,7 +102,7 @@
 
             @endif
           </ul>
-        </div> <!-- .navbar-collapse -->
+        </div> <!-- .navb-collapse -->
       </div> <!-- .container -->
     </nav>
   </header>
@@ -161,8 +161,6 @@
             @include('user.appointment')
             
            
-        
-
             @else 
             <h1 style="text-align:center">Autori ovog projekta</h1>
             <div id="section2">
