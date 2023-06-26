@@ -64,7 +64,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupport">
+        <div id="navbarSupport">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="{{url('/')}}">Početna</a>
@@ -160,8 +160,7 @@
 
             @include('user.appointment')
             
-            <x-app-layout>
-            </x-app-layout>
+           
         
 
             @else 
@@ -181,10 +180,7 @@
             <h3>Naši profili na GitHub: </h3>
            <p><a href="https://github.com/antebuba">GitHub profil od Ante</a></p>
            <p><a href="https://github.com/teaarozic">GitHub profil od Tea</a></p>
-           
-       
-  </p>
-</div>
+          </div>
             @endauth
 
             @endif
