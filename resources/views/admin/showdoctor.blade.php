@@ -28,7 +28,7 @@
                     </tr>
 
                     @foreach($data as $doctor)
-                    <tr align="center" style="background-color:skyblue">
+                    <tr align="center" style="background-color:white; color:black">
                         <td>{{$doctor->name}}</td>
                         <td>{{$doctor->phone}}</td>
                         <td>{{$doctor->speciality}}</td>

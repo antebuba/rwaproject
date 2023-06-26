@@ -2,30 +2,16 @@
 <html lang="en">
 <head>
   <style>
-    .zivotopisA {
-            background-color: silver;
-            height: 350px;
-            width: 320px;
-            border-radius: 15px;
-            margin-top: 30px;
-            padding: 30px;
-            float: left;
-            margin-left: 70px;
-            font-family: system-ui;
-
-
-        }
-        .zivotopisT {
-            background-color: silver;
-            height: 350px;
-            width: 320px;
-            border-radius: 15px;
-            padding: 30px;
-            margin-top: 30px;
-            float: right;
-            margin-right: 70px;
-            font-family: system-ui;
-        }
+    #section2 {
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+    #section3{
+      background-color: white;
+      color: black;
+      text-align: center;
+    }
   </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -180,20 +166,25 @@
 
             @else 
             <h1 style="text-align:center">Autori ovog projekta</h1>
-            <div class="zivotopisA">
+            <div id="section2">
               <h1>Ante Bubalo</h1>
-              <p>Dolazim iz Širokog Brijega.Rođen sam 21.siječnja 2002 godine.U svibnju 2020.
-                  završavam
-                  srednju strukovnu školu u Širokom Brijegu te nakon toga upisujem fakultet Računarstva u Mostaru.Ovo je moj
-                  <a style="color:red" href="https://github.com/antebuba/E-zdravstvo">GitHub.</a>
-              </p>
-          </div>
-          <div class="zivotopisT">
-            <h1>Tea Rozic</h1>
-            <p>Dolazim iz Mostara.Rođena sam 06.listopada 2001 godine.U svibnju 2020. završavam
-                gimnaziju u Mostaru te nakon toga upisujem fakultet Računarstva u Mostaru.Ovo je moj <a style="color:red"
-                    href="https://github.com/teaarozic">GitHub.</a> </p>
-        </div>
+              <p>Dolazim iz Širokog Brijega. Rođen sam 21.siječnja 2002 godine. U svibnju 2020. godine sam završio 
+                srednju školu u Širokom Brijegu. Nakon toga odlučujem se da upišem fakultet Računarstva u Mostaru.
+            </p>
+            <br>
+            <h1>Tea Rozić</h1>
+            <p>Dolazim iz Mostara. Rođena sam 06.listopada 2001 godine. U svibnju 2020. sam završila
+              gimnaziju u Mostaru. Nakon toga odlučujem upisujem <br>fakultet Računarstva u Mostaru.</p>
+            </div>
+          <div id="section3">
+           <h1>Kontakt</h1>
+            <h3>Naši profili na GitHub: </h3>
+           <p><a href="https://github.com/antebuba">GitHub profil od Ante</a></p>
+           <p><a href="https://github.com/teaarozic">GitHub profil od Tea</a></p>
+           
+       
+  </p>
+</div>
             @endauth
 
             @endif

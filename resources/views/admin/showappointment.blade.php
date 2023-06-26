@@ -16,10 +16,10 @@
             <div align="center" style="padding-top:100px">
                 <table>
                     <tr style="background-color: black;">
-                        <th style="padding: 10px">Ime kupca</th>
+                        <th style="padding: 10px">Ime osobe</th>
                         <th style="padding: 10px">Email</th>
                         <th style="padding: 10px">Telefon</th>
-                        <th style="padding: 10px">Ime Doktora</th>
+                        <th style="padding: 10px">Tip pregleda</th>
                         <th style="padding: 10px">Datum</th>
                         <th style="padding: 10px">Poruka</th>
                         <th style="padding: 10px">Status</th>
@@ -29,7 +29,7 @@
                         
                     </tr>
                     @foreach($data as $appoint)
-                    <tr align="center" style="background-color: skyblue">
+                    <tr align="center" style="background-color: white; color:black">
                         <td>{{ $appoint->name}}</td>
                         <td>{{ $appoint->email}}</td>
                         <td>{{ $appoint->phone}}</td>
